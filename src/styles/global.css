@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    body {
+        overflow: hidden;
+        border-radius: 50px;
+        background: transparent;
+    }
+    root {
+        border-radius: 50px;
+        background: transparent;
+    }
+}
