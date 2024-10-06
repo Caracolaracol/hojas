@@ -1,3 +1,4 @@
+import FileBrowser from "./components/molecules/FileBrowser";
 import Folders from "./components/organisms/Folders";
 import TextEditor from "./components/TextEditor";
 
@@ -5,7 +6,8 @@ function App() {
   return (
     <div className="flex rounded-md bg-white flex-col h-screen justify-between items-center ">
       <div className="flex justify-between w-full h-full">
-        <Folders />
+        {/* <Folders /> */}
+        <FileBrowser />
         <div className="w-full rounded-md overflow-scroll ">
           <TextEditor />
         </div>

@@ -13,6 +13,15 @@
   "tauri": {
     "macOSPrivateApi": true,
     "allowlist": {
+      "fs": {
+        "all": true,
+        "scope": [
+          "**"
+        ]
+      },
+      "path": {
+        "all": true
+      },
       "all": false,
       "shell": {
         "all": false,
